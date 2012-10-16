@@ -1,0 +1,12 @@
+name: mmoInfoOnline
+version: ${releaseVersion}.${buildNumber}
+description: Adds a {gold} token to the mmoInfo token list.
+author: mmoMinecraftDev
+main: mmo.Info.MMOInfoOnline
+depend: [Spout,mmoCore,mmoInfo]
+
+description: Adds {food} to the info tokens
+permissions:
+  mmo.info.online:
+    description: Allows {online} to show current and max users on server.
+    default: true
