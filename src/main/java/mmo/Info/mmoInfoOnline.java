@@ -68,12 +68,6 @@ implements Listener
 		}
 	}
 
-	@EventHandler
-	public void onPlayerQuit(Player player)
-	{
-		this.widgets.remove(player);
-	}
-
 	public class CustomLabel extends GenericLabel
 	{
 		private boolean check = true;
