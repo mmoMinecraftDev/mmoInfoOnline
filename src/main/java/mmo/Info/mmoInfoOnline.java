@@ -82,7 +82,7 @@ implements Listener
 		public void onTick()
 		{
 			if (tick++ % 100 == 0) {
-				setText(String.format(": " + getServer().getOnlinePlayers().length + "/" + getServer().getMaxPlayers()));
+				setText(String.format(" " + getServer().getOnlinePlayers().length + "/" + getServer().getMaxPlayers()));
 			}
 		}
 	}
