@@ -59,6 +59,7 @@ implements Listener
 			SpoutPlayer player = event.getPlayer();
 			if (player.hasPermission("mmo.info.online")) {
 				CustomLabel label = (CustomLabel)new CustomLabel().setResize(true).setFixed(true);
+				label.setText("0/0");
 				this.widgets.put(player, label);
 				event.setWidget(this.plugin, label);
 				event.setIcon("player.png");	
